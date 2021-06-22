@@ -109,7 +109,7 @@ for (let i = 0; i < nVarNum; i++) {
 
 const results = variables;
 
-fs.writeFileSync(path.resolve(dirname, 'result-json.txt'), JSON.stringify(results, '', 2));
+fs.writeFileSync(path.resolve(dirname, 'result.json'), JSON.stringify(results, '', 2));
 
 /*
 bool COMPILER::LoadState(std::fstream &fileS)
